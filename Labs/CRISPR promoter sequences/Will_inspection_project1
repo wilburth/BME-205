@@ -1,0 +1,8 @@
+Inspector: Michael Collins
+Instead of 'take in' and 'produce' in docstrings use 'input' and 'output', and include the respective datatypes
+
+In Motif mehtod, you can used probablility *= instead of probablility = probablilty * 
+
+could use count based profile instead of probablity based profile since you don't calcualte realative entorpy very often
+
+

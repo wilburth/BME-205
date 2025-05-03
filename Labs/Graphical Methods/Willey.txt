@@ -1,0 +1,3 @@
+Q8 ~ 12. Well written codes. They are readable and neat. I can easliy follow the codes. No other inspections are needed.
+Q13. The outputs look good and codes look fine, too. It is good to have detailed explanation of the codes with doctstings but there are some codes I can't easily understand unless I visit the links or watch videos. It would be better to explain them briefly in your own words. 
+Q14. I like how you solved the problems by using the concept of recusion. Great job!

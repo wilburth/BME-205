@@ -1,0 +1,63 @@
+Inspector: Michael Collins
+Inspectee: Junmo Sung
+
+Problem 16:
+Strange that you used a method to make your codon to aa dictionary, but writing it out is a pain so i get that.
+With this many short methods I would have liked a description of when and why they are called.
+Other than that it looks great, really like the use of markdown cells to organize the code.
+
+Problem 17:
+I found the dictionary for aa to weight online and copy pasted it,
+seems more clear to have it written as a variable than writing a method that creates it.
+The rest is similar to what i did, looks good.
+
+Problem 18:
+
+I had a separate funciton that handled the branch step, it made it much easier to deal with the orgainization of the step.
+I just reset my candidate peptides with the output from that function. Also the function is supposed to exit when there are
+no more candidate solutions available.
+This is so different from what I did and what the book describes that I'm having a hard time understanding how it works,
+also a general overview of how each method fits into the algorithm would be super helpful.
+Inline comments and doctstrings helped, and again I like your use of markdown cells
+
+
+
+
+Inspector: Michael Collins
+Inspectee: William S
+
+Problem 16:
+Interesting that you chose to work in the DNA space instead of the amino acid space, i guess it is a pain to
+isolate codons from the sequence. No idea what's better but its nice to see new solutions. Other than that it
+looks great! Needs the markdown cell.
+
+Problem 17:
+I like the way you dealt with the cyclic nature of the peptide, I used the peptide = peptide+peptide approach.
+The rest looks great! Needs that markdown cell.
+
+Problem 18:
+I like the idea of having a notConsistent() method, looks very clean. I used list compressions but its kinda ugly.
+I thought it was easier to represent the peptides as lists of masses(ints) rather than a string with dashes, that way you don't
+have to keep translating it. I like the print function being worked into the class, imma start doing that.
+Overall looks great! Dont forget the markdown cell.
+
+
+
+
+Inspector: Michael Collins
+Inspectee: Wenyu Liang
+
+Problem 16:
+For reverse complement you can use sequence.translate(str.maketrans("ATCG", "TAGC"))[::-1] as a one line solution.
+You never use dnaSubString in findSubstrings, other than that it looks great!
+
+Problem 17:
+I'd like a description of the lists you return, it's pretty clear in this case but just saying, for instance,
+that generateSubPeptide returns a list of strings would be nice.
+Docstrings,markdown cells, and inline comments are all very helpful. Nice job.
+
+Problem 18:
+Very clear markdown cell at the top of the code, really like this. I liked that you shortened your masses list
+using the masses in the initial spectrum, very clever. Weird that you used a while loop in expand instead of a for loop with
+range(1,len(self.masses), i think the for loop looks cleaner.
+The rest looks great!

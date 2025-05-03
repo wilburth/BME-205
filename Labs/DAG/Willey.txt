@@ -1,0 +1,4 @@
+Inspector: Junmo
+
+Readable codes with detailed explanations. The codes worked well with my inputs and had the same outputs, too. 
+However I think there should be markdown cells to explain about the methods. Otherwise, it looked great. 

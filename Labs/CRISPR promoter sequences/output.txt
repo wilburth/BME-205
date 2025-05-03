@@ -1,0 +1,2 @@
+Final sequence consensus: AAAAACTTAAAAA
+Final entropy score: 8.805314402499295

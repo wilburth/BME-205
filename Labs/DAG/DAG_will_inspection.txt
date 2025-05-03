@@ -1,0 +1,7 @@
+Inspector: Michael Collins
+Inspectee: Will Schlough
+
+The use of a nested class to represent the DAG is a cool idea, makes the code MUCH cleaner than what i did.
+The implementation is looks the same as what I did, except for the findLongest method. I have no idea if either is better,
+I assume this one works better since its the one the book/class wants us to use.
+Everything is well commented, you still need the markdown cell but other than that it looks great!
